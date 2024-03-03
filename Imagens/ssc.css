@@ -1,0 +1,194 @@
+* {
+    margin: 0px;
+    padding: 0px;   
+   }
+
+   body{
+    background-image: linear-gradient(to bottom, rgba(52, 80, 80, 0.801), rgba(5, 2, 49, 0.829));
+   }
+
+   header{
+    min-height: 150px;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(87, 79, 114));
+   }
+
+   header span {
+    color: rgb(71, 71, 255);
+   }
+  
+   header h1 {
+    padding-top: 20px;
+    font-size: 50px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+   }
+
+   header p {
+    font-size: 1.3em;
+    text-decoration: underline;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 255, 255);
+   }
+
+   nav{
+    font-size: 1.1em;
+    padding-top: 7px;
+    padding-bottom: 2px;
+    text-align: center;
+    background-color:  rgb(87, 79, 114);
+   }
+
+   nav a {
+    font-weight: bolder;
+    color: chartreuse;
+    margin-right: 100px;
+    margin-left: 85px;
+    padding: 4px;
+    text-decoration: none;
+    transition: 2s;
+   }    
+
+   nav a:hover{
+    background-color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+   }
+
+   main{
+    background-image: linear-gradient(to bottom, rgb(55, 49, 70), rgb(33, 17, 92));
+    min-width: 300px;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 25px;
+    text-indent: 10px;
+    text-align: auto;    
+   }
+
+   article a {
+    color: rgb(0, 247, 255);
+    text-decoration: none;
+    transition: 2s;
+   }
+
+   article a:hover{
+    text-decoration: underline;
+    color: rgb(0, 255, 200);
+   }
+
+   article p {
+    color: white;
+    font-weight: bolder;
+    font-size: 1.3em;
+    line-height: 25px;
+   }
+
+   article h2 {
+     font-size: 2.5em;
+     padding-bottom: 20px;
+     text-align: center;
+     color: rgb(251, 255, 4);
+   }
+
+   footer { 
+    color: rgb(224, 0, 0);
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bolder;
+    background-color: rgba(255, 255, 255, 0.61);
+   }
+
+   .game {
+    padding-bottom: 35px;
+    padding-top: 35px;
+    text-align: center;
+   }
+
+   .game img{
+    width: 85%;
+    box-shadow: 0px 0px 7px rgb(255, 255, 255);
+   }
+
+   .wong img {
+    width: 85%;
+    box-shadow: 0px 0px 7px rgb(255, 255, 255);
+   }
+
+   article .wong{
+    padding-bottom: 35px;
+    padding-top: 35px;
+    width: 69%;
+    margin: auto;
+    margin-left: 194px;
+   }
+
+aside .unique {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  
+}
+
+footer a {
+  text-decoration: none;
+  color: red;
+  transition: 2s;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  color: rgb(0, 44, 241)
+}
+
+aside video{
+  box-shadow: 0px 0px 7px rgb(255, 255, 255);
+}
+
+@media screen and (max-width: 400px) {
+  video {
+    width: 100%;
+    margin: auto;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  article .wong {
+    width: 100%;
+    margin: 10px;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  article p {
+    text-align: left;
+    margin: auto;
+    line-height: 20px;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  nav a {
+    font-size: 15px;
+    margin-left: 8px;
+    margin-right: 20px;
+  }
+} 
+
+@media screen and (max-width: 400px) {
+  main {
+    margin: 0;
+    border-radius: 0px;
+  }
+
+  footer{
+    font-size: 20px;
+    background-color: whitesmoke;
+    color: black;
+  }
+} 
