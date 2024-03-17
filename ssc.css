@@ -3,9 +3,10 @@
     padding: 0px;   
    }
    
+
    .float{
     position: absolute;
-    top: 2px;
+    top: 0px;
     right: 1px;
   }
 
@@ -167,12 +168,16 @@ aside video{
 }
 
 
-
 @media screen and (max-width: 700px) {
+  
+  header {
+    padding-top: 12px;
+  }
 
   header h1 {
-    margin-top: 10px;
+    margin-top: 4px;
     font-size: 45px;
+
   }
 
   header p{
@@ -222,5 +227,13 @@ aside video{
 
 } 
 
+@media screen and (max-width: 907px) {
+  nav a {
+    margin-right: 1px;
+    margin-left: 1px;
+  }
+  
+
+}
 
 
