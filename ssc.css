@@ -14,6 +14,7 @@
     background-image: linear-gradient(to bottom,#080926,#0e0068ec);
    }
 
+
    header{
     min-height: 150px;
     text-align: center;
@@ -51,17 +52,18 @@
 
    nav a {
     font-weight: bolder;
-    color: rgb(255, 0, 0);
+    color: rgb(255, 217, 0);
     margin-right: 100px;
-    margin-left: 90px;
+    margin-left: 167px;
     padding: 4px;
+    font-size: 22px;
     text-decoration: none;
-    transition: 2s;
+    transition: 4s;
 
    }    
 
    nav a:hover{
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.178);
     text-decoration: underline;
     font-weight: bolder;
    }
@@ -84,6 +86,8 @@
     border-radius: 25px;
     text-indent: 10px;
     text-align: auto;    
+    box-shadow: 0px 0px 10px rgb(0, 255, 234);
+
    }
 
    article a {
